@@ -20,7 +20,7 @@ class GoogleAuth extends React.Component {
     //onAuthChange gets a boolean value with the current value of authentication
 
     onAuthChange = (isSignedIn) => {
-        isSignedIn ? this.props.signIn() : this.props.signOut()
+        isSignedIn ? this.props.signIn(this.auth.currentUser.get().getId()) : this.props.signOut()
     }
 
     renderAuthButton() {
@@ -41,7 +41,7 @@ class GoogleAuth extends React.Component {
             return (
                 <div>
                     <button 
-                    onClick = {() => this.auth.signIn(this.auth.currentUser.get().getId())}
+                    onClick = {() => this.auth.signIn(this.auth.signIn())}
                     className = 'ui red google button'>
                         <i className = 'google icon'></i>
                         Sign In With Google
