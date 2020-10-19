@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { fetchStreams } from '../../actions';
+import { fetchStreams, deleteStream } from '../../actions';
 import {Link} from 'react-router-dom'
 
 class StreamList extends React.Component {
@@ -13,7 +13,7 @@ class StreamList extends React.Component {
       return (
         <div className = 'right floated content'>
           <Link to = {`/streams/edit/${stream.id}`} className="ui button primary">Edit</Link>
-          <button className="ui button negative">Delete</button>
+          <button onClick = {() => this.props.deleteStream(stream.id)} className="ui button negative">Delete</button>
         </div>
       )
     }
@@ -62,5 +62,5 @@ const mapStateToProps = state => {
 
 export default connect(
   mapStateToProps,
-  { fetchStreams }
+  { fetchStreams, deleteStream }
 )(StreamList);
