@@ -1,3 +1,16 @@
 {
-  "streams": []
+  "streams": [
+    {
+      "title": "first",
+      "description": "ksnksnk",
+      "userId": "107359107835482539331",
+      "id": 1
+    },
+    {
+      "title": "Check",
+      "description": "CHEEECK",
+      "userId": "107359107835482539331",
+      "id": 2
+    }
+  ]
 }
