@@ -1,16 +1,10 @@
 {
   "streams": [
     {
-      "title": "first",
-      "description": "ksnksnk",
+      "title": "Sudarshan's Stream",
+      "description": "Come check out my stream!",
       "userId": "107359107835482539331",
       "id": 1
-    },
-    {
-      "title": "Check",
-      "description": "CHEEECK",
-      "userId": "107359107835482539331",
-      "id": 2
     }
   ]
 }
