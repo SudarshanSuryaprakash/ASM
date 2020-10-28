@@ -1,0 +1,11 @@
+.root {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    to right bottom,
+    rgba(13, 172, 177, 0.788),
+    rgba(255, 255, 255, 0.801)
+  );
+  background-size: cover;
+  background-position: top;
+}
