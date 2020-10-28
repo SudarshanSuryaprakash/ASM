@@ -8,7 +8,6 @@ class StreamShow extends React.Component {
 
   constructor(props){
     super(props)
-
     this.videoRef = React.createRef()
   }
   componentDidMount(){

@@ -1,0 +1,26 @@
+.bg {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #0f0b49;
+  padding: 3rem;
+  padding-top: 0;
+  /* background: url('../../asmImg.png'); */
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(184, 238, 134, 0.801)), to(rgba(0, 0, 255, 0.801))), url("../../asmImg.png");
+  background: linear-gradient(to right bottom, rgba(184, 238, 134, 0.801), rgba(0, 0, 255, 0.801)), url("../../asmImg.png");
+  background-size: auto;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+}
+
+button:hover {
+  -webkit-transform: translateY(-0.3rem);
+          transform: translateY(-0.3rem);
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.head-title {
+  font-size: large;
+}
+/*# sourceMappingURL=App.css.map */

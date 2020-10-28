@@ -8,9 +8,12 @@ import StreamShow from './streams/StreamShow';
 import Header from './Header';
 import history from '../history'
 
+import './css/App.css'
+
 const App = () => {
   return (
-    <div className='ui container'>
+    <div className = 'bg'>
+        <div className='ui container'>
       <Router history = {history}>
         <div>
           <Header />
@@ -23,6 +26,8 @@ const App = () => {
         </div>
       </Router>
     </div>
+    </div>
+
   );
 };
 

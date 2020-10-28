@@ -6,10 +6,13 @@ import GoogleAuth from './GoogleAuth'
 const Header = () => {
   return (
     <div className='ui secondary pointing menu'>
-      <Link to='/' className='item'>
+    <div className = 'head-title'>
+    <Link to='/' className='item'>
         Streamer - ASM Project
       </Link>
-      <div className='right menu'>
+    </div>
+      
+      <div className='right menu head-title'>
         <Link to='/' className='item'>
           All streams
         </Link>
